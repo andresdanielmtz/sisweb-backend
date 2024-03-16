@@ -8,7 +8,7 @@ const index_1 = __importDefault(require("./src/routes/index"));
 const morgan_1 = __importDefault(require("morgan"));
 const connection_1 = __importDefault(require("./src/connection/connection"));
 const app = (0, express_1.default)();
-const port = 3007;
+const port = 3008;
 app.use((0, morgan_1.default)('dev'));
 app.use(express_1.default.json());
 app.use(index_1.default);

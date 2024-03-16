@@ -4,7 +4,7 @@ import morgan from 'morgan'
 import connectionDB from './src/connection/connection'
 
 const app: Express = express()
-const port = 3007
+const port = 3008
 
 app.use(morgan('dev'))
 app.use(express.json())
